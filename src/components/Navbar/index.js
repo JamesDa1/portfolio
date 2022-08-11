@@ -6,42 +6,31 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
-  icoGitHub,
-  icoLinkedIn,
 } from "./NavbarElements"
 
-const Navbar = () => {
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
+
+const Navbar = ({ toggle }) => {
   return (
-    <>
+    <div>
       <Nav>
         <NavLink to="/">
           <h1>james-dasher</h1>
         </NavLink>
-        <Bars />
+        <Bars onClick={toggle} />
         <NavMenu>
-          <NavLink to="/" activeStyle>
-            _hello
-          </NavLink>
-          <NavLink to="/om-meg" activeStyle>
-            _om-meg
-          </NavLink>
-          <NavLink to="/prosjekter" activeStyle>
-            _prosjekter
-          </NavLink>
+          <NavLink to="/">_hello</NavLink>
+          <NavLink to="/about">_om-meg</NavLink>
+          <NavLink to="/projects">_prosjekter</NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/">
-            Sign in
-            <icoGitHub />
-          </NavBtnLink>
-          <icoGitHub />
-        </NavBtn>
-        <NavBtn>
-          <a href="google.com">GitHub</a>
-          <a href="google.com">LinkedIn</a>
+          <a href="https://github.com/JamesDa1" target="_blank">
+            <AiFillGithub style={{ fontSize: "2rem" }} />
+          </a>
+          <AiFillLinkedin style={{ fontSize: "2rem" }} />
         </NavBtn>
       </Nav>
-    </>
+    </div>
   )
 }
 

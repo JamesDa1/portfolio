@@ -1,5 +1,4 @@
 import React from "react"
-
 const About = () => {
   return (
     <div
@@ -11,7 +10,7 @@ const About = () => {
         color: "black",
       }}
     >
-      <h1>om-meg</h1>
+      <h1>_om-meg</h1>
     </div>
   )
 }

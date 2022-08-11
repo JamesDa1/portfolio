@@ -1,12 +1,179 @@
-@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
 * {
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
+  background: #011627;
 }
 
 p {
   color: white;
+}
+
+/* Navigation  */
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid white;
+  bottom: 10px;
+  left: 0;
+  padding-top: 1rem;
+  padding-inline: 1rem;
+  /* padding-top: 1rem; */
+  /* margin-inline: 2rem; */
+}
+
+/* Home page  */
+
+main {
+  background: #011627;
+  height: 100%;
+}
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.homeContainer p {
+  color: white;
+  /* padding-top: 5rem; */
+  line-height: 3rem;
+}
+
+.heroText,
+.heroProject {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.heroText {
+  margin-bottom: 2rem;
+}
+
+.heroGreeting {
+  font-size: 1.2rem;
+}
+.heroName {
+  font-size: 62px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.heroJobTitle {
+  font-size: 32px;
+  margin-bottom: 2rem;
+  color: #4d5bce;
+}
+
+.comments p {
+  color: #607b96;
+}
+
+.comments a {
+  text-decoration: none;
+}
+/* Image section */
+
+.heroGreeting h3 {
+  text-align: center;
+}
+
+.heroProject img {
+  height: 100%;
+  width: 100%;
+}
+
+.heroPortrait {
+  display: none;
+}
+.heroPortrait img {
+  border-radius: 50%;
+}
+
+/* Text accents  */
+
+.textAccent-blue {
+  color: #4d5bce;
+}
+
+.textAccent-green {
+  color: #43d9ad;
+}
+
+.textAccent-orange {
+  color: #e99287;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #011627;
+  color: red;
+  margin-inline: 3rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+}
+
+footer .contactDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .mailSelect:hover {
+  cursor: copy;
+}
+
+@media screen and (max-width: 768px) {
+  .homeContainer {
+    padding: 0;
+    margin: 0;
+  }
+  .heroText {
+    margin-left: 2rem;
+  }
+  .heroProject {
+    display: none;
+  }
+  .heroPortrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .comments {
+    text-align: center;
+  }
+  .comments .devFinder {
+    display: none;
+  }
+
+  /* .comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  } */
+
+  footer {
+    margin-inline: 2rem;
+  }
 }
