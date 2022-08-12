@@ -1,12 +1,5 @@
 import React from "react"
-import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-} from "./NavbarElements"
+import { Nav, NavLink, Bars, NavMenu, NavBtn } from "./NavbarElements"
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 
@@ -24,7 +17,11 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/projects">_prosjekter</NavLink>
         </NavMenu>
         <NavBtn>
-          <a href="https://github.com/JamesDa1" target="_blank">
+          <a
+            href="https://github.com/JamesDa1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub style={{ fontSize: "2rem" }} />
           </a>
           <AiFillLinkedin style={{ fontSize: "2rem" }} />

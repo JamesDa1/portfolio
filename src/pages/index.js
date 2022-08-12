@@ -1,6 +1,5 @@
 import heroPortrait from "../images/portrait_cropped.jpg"
 import devFinder from "../images/devFinder.png"
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 
 import React from "react"
 const Home = () => {
@@ -18,11 +17,18 @@ const Home = () => {
             <img src={heroPortrait} alt="portrait" />
           </div>
           <div className="comments">
-            <p className="comment devFinder"> // enter github username</p>
-            <p className="comment devFinder"> // click card to go to page</p>
-            <p className="comment"> // find my profile on Github:</p>
+            <p className="comment devFinder"> {"// enter github username"}</p>
+            <p className="comment devFinder">
+              {" "}
+              {"// click card to go to page"}
+            </p>
+            <p className="comment"> {"// find my profile on Github:"}</p>
 
-            <a href="https://github.com/JamesDa1" target="_blank">
+            <a
+              href="https://github.com/JamesDa1"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p className="commentStyled">
                 <span className="textAccent-blue">const</span>{" "}
                 <span className="textAccent-green">githubLink</span> =

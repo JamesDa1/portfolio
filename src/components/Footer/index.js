@@ -17,7 +17,11 @@ const Footer = () => {
       <div className="additionalLinks">
         <h3>SOCIAL MEDIA</h3>
         <div className="logos">
-          <a href="https://github.com/JamesDa1" target="_blank">
+          <a
+            href="https://github.com/JamesDa1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub style={{ fontSize: "2rem" }} />
           </a>
           <AiFillLinkedin style={{ fontSize: "2rem" }} />

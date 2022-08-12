@@ -7,7 +7,6 @@ import {
   SidebarMenu,
   SidebarLink,
   SideBtnWrap,
-  SidebarRoute,
 } from "./SidebarElements"
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
