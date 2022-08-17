@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+* {
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #011627;
+}
+
+/* Text Accents */
+
+.textAccent-blue {
+  color: #4d5bce;
+}
+
+.textAccent-green {
+  color: #43d9ad;
+}
+
+.textAccent-orange {
+  color: #e99287;
+}
+
+main {
+  background: #011627;
+  /* height: 100%; */
+}
+
+/* PROJECT PAGE  */
+
+/* ABOUT PAGE */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 3rem;
+  gap: 2rem;
+  width: 100vw;
+  padding-inline: 2rem;
+}
+
+.about .aboutImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about .aboutImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about .aboutBio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 45%;
+  /* padding: 2rem 4rem; */
+}
+
+.about .aboutBio .aboutHeader {
+  font-size: 1.5rem;
+}
+.about .aboutBio .aboutName {
+  color: #ffb800;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about .aboutBio .aboutPitch {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about .aboutBio .aboutPitch p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.about .aboutBio .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.about .aboutBio .skills h2 {
+  display: none;
+}
+
+.about .aboutBio .skills .skillsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 768px;
+}
+.about .aboutBio .skills .skillsContainer .skillBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .aboutBio .skills .skillsContainer .skillBox .skillLogo {
+  min-height: 60px;
+  max-width: 100px;
+  max-height: 5rem;
+  height: 8vw;
+}
+
+/* Media query for AboutPage  */
+@media screen and (max-width: 768px) {
+  /* Hides large portrait on smaller screens */
+  .about .aboutImage {
+    display: none;
+  }
+
+  /* Resizes bio to take up the full screen  */
+  .about .aboutBio {
+    width: 100%;
+    /* padding: 2rem 4rem; */
+  }
+
+  /* Toggles visibility for "SKILLS" header  */
+  .about .aboutBio .skills h2 {
+    display: block;
+    font-size: 2rem;
+    color: #ffb800;
+  }
+}
+
+/* HOME PAGE */
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 3rem;
+  gap: 2rem;
+  width: 100vw;
+  padding-inline: 2rem;
+}
+
+.homeContainer .heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeContainer .heroText .header {
+  margin-bottom: 3rem;
+}
+
+.homeContainer .heroText .header .heroGreeting {
+  font-size: 1.2rem;
+}
+
+.homeContainer .heroText .header .heroName {
+  font-size: 3.875rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.homeContainer .heroText .header .heroJobTitle {
+  font-size: 32px;
+  color: #4d5bce;
+}
+
+/* Portrait only displayed on smaller screens, Add mediaQuery */
+.homeContainer .heroPortrait {
+  display: none;
+}
+
+.homeContainer .heroProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer .heroProject img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.homeContainer .heroText .comments {
+  line-height: 1.5rem;
+}
+
+.homeContainer .heroText .comments .comment {
+  color: #607b96;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.homeContainer .heroText .comments a {
+  text-decoration: none;
+}
+
+/* Media query for HomePage  */
+
+@media screen and (max-width: 768px) {
+  /* changes padding to 1rem */
+  .homeContainer {
+    padding-inline: 1rem;
+  }
+
+  /* Hides heroProject on smaller screens */
+  .homeContainer .heroProject {
+    display: none;
+  }
+
+  /* Hides comments for DevFinder on smaller screens */
+  .homeContainer .comments .devFinder {
+    display: none;
+  }
+
+  /* Toggles portrait to be visible  */
+  .homeContainer .heroPortrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Crops image into a circle  */
+  .homeContainer .heroPortrait img {
+    border-radius: 50%;
+  }
+}
+
+/* PROJECT PAGE */
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* IGNORE THIS PART FOR NOW */
+/* FOOTER  */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #011627;
+  color: red;
+
+  margin-inline: 3rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+}
+
+footer .contactDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .mailSelect:hover {
+  cursor: copy;
+}

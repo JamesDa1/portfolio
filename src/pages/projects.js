@@ -1,19 +1,11 @@
 import React from "react"
+import projectImage from "../images/calculator.png"
+import { AiFillGithub } from "react-icons/ai"
+import { data } from "./data"
+import { ProjectList } from "../components/Projects"
 
 const Projects = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-        color: "black",
-      }}
-    >
-      <h1>prosjekter</h1>
-    </div>
-  )
+  return <ProjectList />
 }
 
 export default Projects

@@ -85,10 +85,6 @@ main {
 }
 /* Image section */
 
-.heroGreeting h3 {
-  text-align: center;
-}
-
 .heroProject img {
   height: 100%;
   width: 100%;

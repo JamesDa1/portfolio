@@ -7,11 +7,13 @@ const Home = () => {
     <main>
       <div className="homeContainer">
         <div className="heroText">
-          <p className="heroGreeting">Hei, jeg er</p>
-          <h1 className="heroName">James Dasher</h1>
-          <h2 className="heroJobTitle textAccent-blue">
-            {">"} Front End Developer
-          </h2>
+          <div className="header">
+            <p className="heroGreeting">Hei, jeg er</p>
+            <h1 className="heroName">James Dasher</h1>
+            <h2 className="heroJobTitle textAccent-blue">
+              {">"} Front End Developer
+            </h2>
+          </div>
 
           <div className="heroPortrait">
             <img src={heroPortrait} alt="portrait" />
@@ -29,7 +31,7 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="commentStyled">
+              <p className="comment">
                 <span className="textAccent-blue">const</span>{" "}
                 <span className="textAccent-green">githubLink</span> =
                 <span className="textAccent-orange">

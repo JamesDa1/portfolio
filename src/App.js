@@ -1,4 +1,4 @@
-import "./App.css"
+import "./styles.css"
 import { HashRouter as Router, Routes, Route } from "react-router-dom"
 // Switched from BrowserRouter to HashRouter to see if that fixed Gh-pages issue
 
