@@ -24,7 +24,13 @@ const Navbar = ({ toggle }) => {
           >
             <AiFillGithub style={{ fontSize: "2rem" }} />
           </a>
-          <AiFillLinkedin style={{ fontSize: "2rem" }} />
+          <a
+            href="https://www.linkedin.com/in/james-dasher-b331ab249"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillLinkedin style={{ fontSize: "2rem" }} />
+          </a>
         </NavBtn>
       </Nav>
     </div>
