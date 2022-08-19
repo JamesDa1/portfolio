@@ -26,6 +26,26 @@ main {
   background: #011627;
   /* height: 100%; */
 }
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+/* body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+
+/* Page Container  */
+
+/* .pageContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
 
 /* PROJECT PAGE  */
 
@@ -39,6 +59,7 @@ main {
   gap: 2rem;
   width: 100vw;
   padding-inline: 2rem;
+  margin-block: 5rem;
 }
 
 .about .aboutImage {
@@ -144,10 +165,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-block: 3rem;
   gap: 2rem;
   width: 100vw;
   padding-inline: 2rem;
+  margin-top: 5em;
 }
 
 .homeContainer .heroText {
@@ -242,13 +263,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-block: 3rem;
 }
 
 /* IGNORE THIS PART FOR NOW */
 /* FOOTER  */
 
 footer {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   background: #011627;
@@ -258,8 +280,17 @@ footer {
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
-  line-height: 1.5rem;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  line-height: 1.5rem; */
+  /* padding: 0.5rem calc((100vw - 1000px) / 2); */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 1080px;
+  padding-bottom: 1rem;
+  margin-top: auto;
+  margin-inline: auto;
 }
 
 footer .contactDetails {
@@ -274,4 +305,27 @@ footer .logos {
 
 footer .mailSelect:hover {
   cursor: copy;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+footer p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .contactDetails {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
 }

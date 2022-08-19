@@ -16,18 +16,20 @@ function App() {
     setIsOpen(!isOpen)
   }
   return (
-    <main>
+    <>
       <Router>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-        </Routes>
-        <Footer />
+        <div className="pageContainer">
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+          </Routes>
+          <Footer />
+        </div>
       </Router>
-    </main>
+    </>
   )
 }
 

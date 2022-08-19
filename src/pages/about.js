@@ -7,7 +7,7 @@ import portraitLarge from "../images/Portrait.png"
 import React from "react"
 const About = () => {
   return (
-    <main className="about">
+    <div className="about">
       <div className="aboutImage">
         <img src={portraitLarge} alt="portrait" />
       </div>
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </section>
       </div>
-    </main>
+    </div>
   )
 }
 
