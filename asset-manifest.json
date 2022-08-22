@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5dea15ac.css",
-    "main.js": "/portfolio/static/js/main.12773411.js",
+    "main.css": "/portfolio/static/css/main.f96d8ce0.css",
+    "main.js": "/portfolio/static/js/main.448a5528.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/calculator.png": "/portfolio/static/media/calculator.dbe170f80f228dc8304a.png",
     "static/media/Portrait.png": "/portfolio/static/media/Portrait.5243a16523481bcb4b6f.png",
@@ -9,16 +9,16 @@
     "static/media/portrait_cropped.jpg": "/portfolio/static/media/portrait_cropped.140490fc4748ce999e1e.jpg",
     "static/media/logos_react.svg": "/portfolio/static/media/logos_react.e8f543bfaa87051149541c0db99ff785.svg",
     "static/media/logos_python.svg": "/portfolio/static/media/logos_python.e1983a737c329569212b0da8909b0cd2.svg",
-    "static/media/logos_css.svg": "/portfolio/static/media/logos_css.18ca8daa2302773ca67964a5794d5648.svg",
-    "static/media/logos_html.svg": "/portfolio/static/media/logos_html.f7881ccc1582310b616b2687e689e7a0.svg",
+    "static/media/logos_css.svg": "/portfolio/static/media/logos_css.823875f53aefde37182ce8a7baade569.svg",
+    "static/media/logos_html.svg": "/portfolio/static/media/logos_html.685d38b65fb10705e85b9bb705c4ff85.svg",
     "static/media/logos_javascript.svg": "/portfolio/static/media/logos_javascript.1c82127b14c245274653be95147ef98c.svg",
     "index.html": "/portfolio/index.html",
-    "main.5dea15ac.css.map": "/portfolio/static/css/main.5dea15ac.css.map",
-    "main.12773411.js.map": "/portfolio/static/js/main.12773411.js.map",
+    "main.f96d8ce0.css.map": "/portfolio/static/css/main.f96d8ce0.css.map",
+    "main.448a5528.js.map": "/portfolio/static/js/main.448a5528.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dea15ac.css",
-    "static/js/main.12773411.js"
+    "static/css/main.f96d8ce0.css",
+    "static/js/main.448a5528.js"
   ]
 }
