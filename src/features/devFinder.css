@@ -1,0 +1,154 @@
+.heroProject {
+  width: 600px;
+  height: 100%;
+  background: #1f2a48;
+  color: red !important;
+}
+
+.devFinder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  margin-inline: 1rem;
+  /* padding: 1rem 1.5rem; */
+}
+
+.devFinder header {
+  margin-inline: 1rem;
+}
+
+/* SearchField  */
+.devFinder .searchField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1f2a48;
+  border-radius: 6px;
+
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-inline: 1rem;
+  width: 95%;
+  height: 3rem;
+}
+
+.devFinder .searchField input {
+  background: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  height: 3rem;
+  font-size: 2rem;
+  /* padding-left: 2rem; */
+}
+
+.devFinder .searchField .btn {
+  padding: 0.5rem 1rem;
+  background: #0079fe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.5rem;
+}
+.devFinder .searchField .btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.devFinder .searchField .btn:active {
+  transform: scale(1);
+}
+
+/* Styling for card  */
+
+.devFinder .card {
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #1f2a48;
+  height: 325px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.devFinder .card .cardHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #1f2a48;
+  border-radius: 6px;
+}
+
+.devFinder .card .imgContainer {
+  margin-block: 1rem;
+}
+
+.devFinder .card img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  background: #1f2a48;
+}
+
+.devFinder .cardHeader .userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.devFinder .cardHeader div {
+  background: #1f2a48;
+}
+.devFinder .cardHeader .userInfo h3 {
+  font-size: 2rem;
+}
+.devFinder .cardHeader .userInfo p {
+  font-size: 1.5rem;
+}
+.devFinder .cardHeader .userInfo h3,
+.devFinder .cardHeader .userInfo p {
+  background: #1f2a48;
+  margin-bottom: 1rem;
+}
+
+.devFinder .card .userGreeting {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: #1f2a48;
+}
+
+/* Stats  */
+
+.devFinder .card .stats {
+  display: flex;
+  justify-content: space-evenly;
+  /* background: #141c2f; */
+  margin-inline: auto;
+  width: 90%;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-block: 2rem;
+
+  margin: 0 2rem;
+}
+
+.devFinder .card .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: #1f2a48; */
+}
+
+.devFinder .card .stat h4 {
+  font-size: 2rem;
+  color: #c5ccdb;
+  margin-bottom: 0.5rem;
+  /* background: #1f2a48; */
+}
+.devFinder .card .stat p {
+  font-size: 1.5rem;
+  color: #c5ccdb;
+  margin-bottom: 0.5rem;
+  /* background: #1f2a48; */
+}

@@ -1,5 +1,6 @@
 import heroPortrait from "../images/portrait_cropped.jpg"
 import devFinder from "../images/devFinder.png"
+import DevFinder from "../features/DevFinder"
 
 import React from "react"
 const Home = () => {
@@ -39,8 +40,9 @@ const Home = () => {
         </div>
       </div>
       <div className="heroProject">
-        <h3>To be replaced with devFinder App</h3>
-        <img src={devFinder} alt="" />
+        {/* <h3>To be replaced with devFinder App</h3> */}
+        {/* <img src={devFinder} alt="" /> */}
+        <DevFinder />
       </div>
     </div>
   )
