@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #010c15;
+  background: #011627;
   display: grid;
   align-items: center;
   top: 0;
@@ -72,14 +72,23 @@ export const SidebarLink = styled(Link)`
 // `
 
 export const SideBtnWrap = styled.div`
-  position: absolute;
+  /* position: absolute;
   bottom: 80px;
   left: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 7%;
+
+  margin-bottom: 2rem;
 
   h3 {
     font-size: 2rem;

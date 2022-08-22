@@ -42,8 +42,20 @@ const Sidebar = ({ isOpen, toggle }) => {
         <div className="socialMedia">
           <h3>find me in:</h3>
           <div className="logos">
-            <AiFillLinkedin style={{ fontSize: "2rem" }} />
-            <AiFillGithub style={{ fontSize: "2rem" }} />
+            <a
+              href="https://github.com/JamesDa1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub style={{ fontSize: "2rem" }} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/james-dasher-b331ab249"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin style={{ fontSize: "2rem" }} />
+            </a>
           </div>
         </div>
       </SidebarWrapper>
