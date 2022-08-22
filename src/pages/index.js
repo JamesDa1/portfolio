@@ -1,5 +1,4 @@
 import heroPortrait from "../images/portrait_cropped.jpg"
-import devFinder from "../images/devFinder.png"
 import DevFinder from "../features/DevFinder"
 
 import React from "react"
