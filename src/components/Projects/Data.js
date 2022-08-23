@@ -14,9 +14,19 @@ export const projects = [
     title: "Fake Store",
     description:
       "En web store laget i React. Jeg brukte useContext og useReducer for handlelisten, axios for å hente informasjon fra API. ",
-    tech: ["React", "styled components", "useContext", "useReducer"],
+    tech: ["React", "useContext", "useReducer"],
     img: require("../../images/fake-store.png"),
     sourceCode: "https://github.com/JamesDa1/fake-store-v2",
+    liveLink: "https://jamesda1.github.io/fake-store-v2/",
+  },
+  {
+    id: 3,
+    title: "devFinder",
+    description:
+      "Using the github users API to fetch publicly available info on a user. It's interactive",
+    tech: ["React", "useContext", "useReducer"],
+    img: require("../../images/devFinder.png"),
+    sourceCode: "https://github.com/JamesDa1/dev-finder",
     liveLink: "https://jamesda1.github.io/fake-store-v2/",
   },
 ]

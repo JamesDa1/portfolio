@@ -5,7 +5,6 @@ import { useState, useEffect } from "react"
 
 import { Octokit } from "@octokit/core"
 
-// let ACCESS_TOKEN = "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"
 const ACCESS_TOKEN = process.env.REACT_APP_MT_API_KEY
 const octokit = new Octokit({ auth: ACCESS_TOKEN })
 

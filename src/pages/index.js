@@ -27,7 +27,7 @@ const Home = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <p className="comment">
+            <p className="comment ghLink">
               <span className="textAccent-blue">const</span>{" "}
               <span className="textAccent-green">githubLink</span> =
               <span className="textAccent-orange">
@@ -39,8 +39,6 @@ const Home = () => {
         </div>
       </div>
       <div className="heroProject">
-        {/* <h3>To be replaced with devFinder App</h3> */}
-        {/* <img src={devFinder} alt="" /> */}
         <DevFinder />
       </div>
     </div>

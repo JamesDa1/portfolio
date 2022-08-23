@@ -8,8 +8,9 @@ export const ProjectContainer = styled.div`
   align-items: center;
   margin-inline: 5%;
 
-  gap: 3rem;
-  max-width: 1100px;
+  gap: 5rem;
+  width: 100%;
+  max-width: 1440px;
 
   color: white;
 
@@ -56,12 +57,15 @@ export const ProjectImgWrapper = styled.div`
 export const ProjectImg = styled.img`
   width: 100%;
   height: 100%;
+  border-radius: 6px;
 `
 
 export const ProjectTechWrap = styled.div`
   display: flex;
   justify-content: center;
-  gap: 5px;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
   align-items: center;
   padding: 0.5rem;
 `

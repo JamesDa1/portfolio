@@ -83,6 +83,7 @@ main {
 .comments a {
   text-decoration: none;
 }
+
 /* Image section */
 
 .heroProject img {
@@ -139,6 +140,8 @@ footer .logos {
 footer .mailSelect:hover {
   cursor: copy;
 }
+
+/* github link  */
 
 @media screen and (max-width: 768px) {
   .homeContainer {

@@ -14,7 +14,7 @@ import {
 
 import { projects } from "./Data"
 import { AiFillGithub } from "react-icons/ai"
-
+import DemoDevFinder from "../../features/DevFinder"
 export const ProjectList = () => {
   return (
     <div className="projectsContainer">
@@ -28,14 +28,16 @@ export const ProjectList = () => {
 
 const ProjectTemplate = (props) => {
   const { title, description, tech, img, sourceCode, liveLink } = props
-  return (
-    <>
+
+  if (title === "devFinder") {
+    return (
       <ProjectContainer>
         <ProjectImgWrapper>
-          <ProjectImg src={img} />
+          <DemoDevFinder />
         </ProjectImgWrapper>
+
         <ProjectInfo>
-          <ProjectTitle>{title}</ProjectTitle>
+          <ProjectTitle>Interactive, {title}</ProjectTitle>
           <ProjectDescription>{description}</ProjectDescription>
           <ProjectTechWrap>
             {tech.map((tech) => {
@@ -43,14 +45,45 @@ const ProjectTemplate = (props) => {
             })}
           </ProjectTechWrap>
           <ProjectActions>
-            <ProjectDemo src={liveLink}>Demo</ProjectDemo>
-            <ProjectSource src={sourceCode}>
+            <ProjectDemo href={liveLink} target="_blank">
+              Demo
+            </ProjectDemo>
+            <ProjectSource href={sourceCode} target="_blank">
               <AiFillGithub />
               Source Code
             </ProjectSource>
           </ProjectActions>
         </ProjectInfo>
       </ProjectContainer>
-    </>
-  )
+    )
+  } else {
+    return (
+      <>
+        <ProjectContainer>
+          <ProjectImgWrapper>
+            <ProjectImg src={img} />
+          </ProjectImgWrapper>
+
+          <ProjectInfo>
+            <ProjectTitle>{title}</ProjectTitle>
+            <ProjectDescription>{description}</ProjectDescription>
+            <ProjectTechWrap>
+              {tech.map((tech) => {
+                return <ProjectTech>{tech}</ProjectTech>
+              })}
+            </ProjectTechWrap>
+            <ProjectActions>
+              <ProjectDemo href={liveLink} target="_blank">
+                Demo
+              </ProjectDemo>
+              <ProjectSource href={sourceCode} target="_blank">
+                <AiFillGithub />
+                Source Code
+              </ProjectSource>
+            </ProjectActions>
+          </ProjectInfo>
+        </ProjectContainer>
+      </>
+    )
+  }
 }
