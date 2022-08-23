@@ -27,6 +27,6 @@ export const projects = [
     tech: ["React", "useContext", "useReducer"],
     img: require("../../images/devFinder.png"),
     sourceCode: "https://github.com/JamesDa1/dev-finder",
-    liveLink: "https://jamesda1.github.io/fake-store-v2/",
+    liveLink: "https://jamesda1.github.io/dev-finder/",
   },
 ]
