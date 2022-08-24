@@ -35,6 +35,7 @@ main {
 
 /* Sidebar  */
 .socialMedia {
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -45,6 +46,14 @@ main {
   right: 0;
 }
 
+.socialMedia h3 {
+  font-size: 2rem;
+}
+
+.socialMedia .logos {
+  display: flex;
+  gap: 1.5rem;
+}
 /* PROJECT PAGE  */
 
 /* ABOUT PAGE */
@@ -243,6 +252,12 @@ main {
 
 .homeContainer .heroText .comments a {
   text-decoration: none;
+}
+
+.homeContainer .heroText .comments a:hover {
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  border: 2px solid yellow;
 }
 
 /* Media query for HomePage  */

@@ -13,7 +13,7 @@ import {
 } from "./ProjectElements"
 
 import { projects } from "./Data"
-import { AiFillGithub } from "react-icons/ai"
+// import { AiFillGithub } from "react-icons/ai"
 // import DemoDevFinder from "../../features/DevFinder"
 export const ProjectList = () => {
   return (
@@ -48,7 +48,7 @@ const ProjectTemplate = (props) => {
               Demo
             </ProjectDemo>
             <ProjectSource href={sourceCode} target="_blank">
-              <AiFillGithub />
+              {/* <AiFillGithub /> */}
               Source Code
             </ProjectSource>
           </ProjectActions>

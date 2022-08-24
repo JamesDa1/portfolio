@@ -88,22 +88,32 @@ export const ProjectSource = styled.a`
   color: #141f26;
   cursor: pointer;
   font-size: 1rem;
+  text-decoration: none;
 
   min-width: 134px;
 
   display: flex;
   align-items: center;
+
   padding: 0.5rem 1.5rem;
   border-radius: 6px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `
 
 export const ProjectDemo = styled.a`
   color: #62fbd7;
   border: 2px solid #62fbd7;
-
+  text-decoration: none;
   font-size: 1rem;
   text-align: center;
   padding: 0.5rem 1.5rem;
   border-radius: 6px;
   cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `

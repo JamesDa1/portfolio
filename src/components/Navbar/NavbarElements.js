@@ -10,6 +10,11 @@ export const Nav = styled.nav`
   align-items: center;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 999;
+
+  h1 {
+    color: #607b96;
+    font-size: 1.5rem;
+  }
 `
 
 export const NavLink = styled(Link)`
