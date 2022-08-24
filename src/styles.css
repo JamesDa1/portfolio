@@ -141,7 +141,7 @@ main {
   /* Hides large portrait on smaller screens */
 
   .about {
-    margin-block: 1.5rem;
+    margin-block: 1rem;
   }
   .about .aboutImage {
     display: none;
@@ -251,6 +251,7 @@ main {
   /* changes padding to 1rem */
   .homeContainer {
     padding-inline: 1rem;
+    margin-block: 1rem;
   }
 
   /* Hides heroProject on smaller screens */
@@ -288,6 +289,11 @@ main {
   margin-block: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  .projectsContainer {
+    margin-block: 1rem;
+  }
+}
 /* IGNORE THIS PART FOR NOW */
 /* FOOTER  */
 
