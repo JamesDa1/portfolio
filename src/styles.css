@@ -139,6 +139,10 @@ main {
 /* Media query for AboutPage  */
 @media screen and (max-width: 768px) {
   /* Hides large portrait on smaller screens */
+
+  .about {
+    margin-block: 1.5rem;
+  }
   .about .aboutImage {
     display: none;
   }
@@ -149,9 +153,27 @@ main {
     /* padding: 2rem 4rem; */
   }
 
+  /* Trying to reorder the skills section on mobile  */
+  .about .aboutBio .aboutHeader {
+    order: 0;
+  }
+
+  .about .aboutBio .aboutName {
+    order: 1;
+  }
+
+  .about .aboutBio .skills {
+    order: 2;
+    margin-bottom: 2rem;
+  }
+
+  .about .aboutBio .aboutPitch {
+    order: 3;
+  }
+
   /* Toggles visibility for "SKILLS" header  */
   .about .aboutBio .skills h2 {
-    display: block;
+    display: none;
     font-size: 2rem;
     color: #ffb800;
   }
@@ -252,6 +274,8 @@ main {
   /* Crops image into a circle  */
   .homeContainer .heroPortrait img {
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
   }
 }
 

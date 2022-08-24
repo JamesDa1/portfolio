@@ -22,9 +22,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <AiFillGithub style={{ fontSize: "2rem" }} />
+            <AiFillGithub style={{ fontSize: "3rem" }} />
           </a>
-          <AiFillLinkedin style={{ fontSize: "2rem" }} />
+          <AiFillLinkedin style={{ fontSize: "3rem" }} />
         </div>
       </div>
     </footer>

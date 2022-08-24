@@ -3,7 +3,7 @@ import logoHTML from "../images/logos_html.svg"
 import logoCSS from "../images/logos_css.svg"
 import logoJavaScript from "../images/logos_javascript.svg"
 import logoPython from "../images/logos_python.svg"
-import portraitLarge from "../images/Portrait.png"
+import portraitLarge from "../images/PortraitHome.png"
 import React from "react"
 const About = () => {
   return (
