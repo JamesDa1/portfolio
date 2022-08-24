@@ -14,7 +14,7 @@ import {
 
 import { projects } from "./Data"
 import { AiFillGithub } from "react-icons/ai"
-import DemoDevFinder from "../../features/DevFinder"
+// import DemoDevFinder from "../../features/DevFinder"
 export const ProjectList = () => {
   return (
     <div className="projectsContainer">
@@ -28,16 +28,15 @@ export const ProjectList = () => {
 
 const ProjectTemplate = (props) => {
   const { title, description, tech, img, sourceCode, liveLink } = props
-
-  if (title === "devFinder") {
-    return (
+  return (
+    <>
       <ProjectContainer>
         <ProjectImgWrapper>
-          <DemoDevFinder />
+          <ProjectImg src={img} />
         </ProjectImgWrapper>
 
         <ProjectInfo>
-          <ProjectTitle>Interactive, {title}</ProjectTitle>
+          <ProjectTitle>{title}</ProjectTitle>
           <ProjectDescription>{description}</ProjectDescription>
           <ProjectTechWrap>
             {tech.map((tech) => {
@@ -55,35 +54,6 @@ const ProjectTemplate = (props) => {
           </ProjectActions>
         </ProjectInfo>
       </ProjectContainer>
-    )
-  } else {
-    return (
-      <>
-        <ProjectContainer>
-          <ProjectImgWrapper>
-            <ProjectImg src={img} />
-          </ProjectImgWrapper>
-
-          <ProjectInfo>
-            <ProjectTitle>{title}</ProjectTitle>
-            <ProjectDescription>{description}</ProjectDescription>
-            <ProjectTechWrap>
-              {tech.map((tech) => {
-                return <ProjectTech>{tech}</ProjectTech>
-              })}
-            </ProjectTechWrap>
-            <ProjectActions>
-              <ProjectDemo href={liveLink} target="_blank">
-                Demo
-              </ProjectDemo>
-              <ProjectSource href={sourceCode} target="_blank">
-                <AiFillGithub />
-                Source Code
-              </ProjectSource>
-            </ProjectActions>
-          </ProjectInfo>
-        </ProjectContainer>
-      </>
-    )
-  }
+    </>
+  )
 }
