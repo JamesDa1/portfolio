@@ -47,14 +47,14 @@ const Sidebar = ({ isOpen, toggle }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <AiFillGithub style={{ fontSize: "2rem" }} />
+              <AiFillGithub style={{ fontSize: "3rem" }} />
             </a>
             <a
               href="https://www.linkedin.com/in/james-dasher-b331ab249"
               target="_blank"
               rel="noreferrer"
             >
-              <AiFillLinkedin style={{ fontSize: "2rem" }} />
+              <AiFillLinkedin style={{ fontSize: "3rem" }} />
             </a>
           </div>
         </div>
