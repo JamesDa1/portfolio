@@ -86,7 +86,7 @@ export const SideBtnWrap = styled.div`
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 7%;
+  bottom: 10%;
 
   margin-bottom: 2rem;
 

@@ -14,6 +14,7 @@ export const Nav = styled.nav`
   h1 {
     color: #607b96;
     font-size: 1.5rem;
+    padding-left: 1rem;
   }
 `
 
