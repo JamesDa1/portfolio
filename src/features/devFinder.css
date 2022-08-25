@@ -1,7 +1,8 @@
 .heroProject {
   width: 600px;
   height: 100%;
-  background: #1f2a48;
+  /* background: #1f2a48; */
+  background: transparent;
   color: red !important;
 }
 
