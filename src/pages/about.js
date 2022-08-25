@@ -16,8 +16,9 @@ const About = () => {
         <h1 className="aboutName">James Dasher</h1>
         <section className="aboutPitch">
           <p>
-            Hei, Jeg er James. Jeg går nå på AMO kurset KodeHode. Utenom kurset
-            har jeg også programmert i Python og Java.
+            Hei, Jeg er James. Jeg går nå på AMO kurset KodeHode hvor jeg lærer
+            HTML, JavaScript, CSS og React. Utenom kurset har jeg også
+            programmert i Python og Java.
           </p>
 
           <p>
