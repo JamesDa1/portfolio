@@ -23,7 +23,7 @@ export const projects = [
     id: 3,
     title: "devFinder",
     description:
-      "Using the github users API to fetch publicly available info on a user. It's interactive",
+      "Using the github users API to fetch publicly available info on a user.",
     tech: ["React", "useEffect", "useState", "@octokit/core"],
     img: require("../../images/devFinder.png"),
     sourceCode: "https://github.com/JamesDa1/dev-finder",
