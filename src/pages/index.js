@@ -18,9 +18,9 @@ const Home = () => {
           <img src={heroPortrait} alt="portrait" />
         </div>
         <div className="comments">
-          <p className="comment devFinder"> {"// enter github username"}</p>
-          <p className="comment devFinder"> {"// click card to go to page"}</p>
-          <p className="comment"> {"// find my profile on Github:"}</p>
+          <p className="comment devFinder">{"// enter github username"}</p>
+          <p className="comment devFinder">{"// click card to go to page"}</p>
+          <p className="comment">{"// find my profile on Github:"}</p>
 
           <a
             href="https://github.com/JamesDa1"
