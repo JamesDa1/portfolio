@@ -8,7 +8,7 @@ export const ProjectContainer = styled.div`
   align-items: center;
   margin-inline: 5%;
 
-  gap: 5rem;
+  gap: 6rem;
   width: 100%;
   max-width: 1440px;
 
